@@ -1,0 +1,34 @@
+# 环境变量（含 API Key，绝对不能上传）
+.env*
+!.env.example
+
+# Next.js、依赖与构建缓存
+.next/
+data/
+out/
+build/
+node_modules/
+*.tsbuildinfo
+*.log
+*.sse.txt
+
+# 本地工具配置、备份与临时渲染产物
+.claude/
+.codex-backup/
+.tmp-*/
+.tmp_*/
+AGENTS.md
+lib/AGENTS.md
+
+# 本地业务材料与实验原始记录
+test-materials/
+docs/job-search-handoff.md
+docs/PRD/
+docs/product/
+docs/research/
+docs/evaluation/
+scripts/
+
+# OS
+.DS_Store
+Thumbs.db
